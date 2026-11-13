@@ -1,0 +1,13 @@
+# Local environment & secrets
+.env
+*.local
+*.log
+
+# Docker mounts & runtime state
+.n8n/
+redis_data/
+node_modules/
+
+# OS artifacts
+.DS_Store
+Thumbs.db
